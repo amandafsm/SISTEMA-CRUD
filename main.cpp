@@ -1,3 +1,6 @@
+#include "menu.cpp"
+
+
 int main() {
     carregarDoArquivo();
     int opcao;
