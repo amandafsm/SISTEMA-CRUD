@@ -82,7 +82,7 @@ void editarPaciente() {
     size_t indice;
     cin >> indice;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
-    if (indice < tarefas.size()) {
+    if (indice < paciente.size()) {
         cout << "Novo paciente: ";
         getline(cin, paciente[indice].nome);
         cout << "Novo procedimento: ";
@@ -97,9 +97,9 @@ void editarPaciente() {
         getline(cin, paciente[indice].horario);
         cout << "Novo médico: ";
         getline(cin, paciente[indice].medico);
-        cout << "convênio: ";
-        getline(cin, paciente[indice].convenio);
-        cout << "Particular: ";
+        cout << "convênio: Sim/Não";
+        cin >> paciente[indice].convenio;
+        cout << "Particular: Sim/Não";
         getline(cin, paciente[indice].particular);
         salvarEmArquivo();
         cout << "Paciente editado com sucesso!\n";
