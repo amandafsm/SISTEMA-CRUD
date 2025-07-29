@@ -1,41 +1,57 @@
 # SISTEMA-CRUD
-Projeto 01 para a disciplina de Laboratório de Linguagem da Programação I - Sistema CRUD
 
-SISTEMA CRUD - CONSULTÓRIO ODONTOLOGICO
+Projeto 01 para a disciplina de **Laboratório de Linguagem da Programação I**  
+Sistema CRUD - **Consultório Odontológico**
 
-INTERFACE HTML E CSS
-      LOGIN
-      SENHA
-MENU
-      AGENDAMENTOS
-      EXCLUIR 
-      EDITAR
-      PESQUISAR
-      RELATORIO 
-      SAIR 
-      
-AGENDAMENTOS 
-      NOME
-      ID
-      IDADE
-      TELEFONE
-      DATA
-      HORÁRIO
-      MÉDICO
-      CONVENIO [] sim [] não
-      PARTICULAR [] sim [] não
-      
-MÉDICO
-      NOME
-      IDADE
-      ESPECIALIZAÇÃO
-    
-CONSULTAS
-      [] RESTAURAÇÃO
-      [] CLAREAMENTO
-      [] ORTODONTIA
-      [] LIMPEZA
-      [] EXAMES DE ROTINA
-      PARECER MÉDICO/DATA DO PROCEDIMENTO
-     
-     
+---
+
+## 🔐 Interface (HTML e CSS)
+
+- Login
+- Senha
+
+---
+
+## 📋 Menu Principal
+
+- Agendamentos
+- Excluir
+- Editar
+- Pesquisar
+- Relatório
+- Sair
+
+---
+
+## 📅 Agendamentos
+
+- Nome
+- ID
+- Idade
+- Telefone
+- Data
+- Horário
+- Médico
+- Convênio: [ ] Sim &nbsp;&nbsp; [ ] Não  
+- Particular: [ ] Sim &nbsp;&nbsp; [ ] Não
+
+---
+
+## 🧑‍⚕️ Médico
+
+- Nome
+- Idade
+- Especialização
+
+---
+
+## 🦷 Consultas
+
+- [ ] Restauração  
+- [ ] Clareamento  
+- [ ] Ortodontia  
+- [ ] Limpeza  
+- [ ] Exames de rotina  
+- Parecer Médico / Data do Procedimento
+
+---
